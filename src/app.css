@@ -1,0 +1,27 @@
+.drum-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 50%;
+  font-size: xx-large;
+}
+
+.pad-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 40vw;
+  height: 40vw;
+  margin: auto;
+  margin-top: 25px;
+}
+
+#display {
+  border: 2px solid;
+  text-align: center;
+  margin: auto;
+  width: 20vw;
+  margin-top: 25px;
+  padding: 20px;
+}
